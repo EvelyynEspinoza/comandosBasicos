@@ -3,6 +3,8 @@ description: Solicitar una nueva característica
 title: "[FEATURE] "
 labels: ["enhancement"]
 assignees: []
+projects: 
+- issueproject
 
 body:
   - type: textarea
