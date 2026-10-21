@@ -1,0 +1,32 @@
+# ==========================================
+# CONFIGURACIÓN GENERAL DE LA NUEVA FUNCIONALIDAD
+# ==========================================
+
+funcionalidad:
+  nombre: "Gestión de Usuarios Premium"
+  version: "1.0.0"
+  habilitado: true
+  fecha_lanzamiento: 2026-10-21
+
+# Configuración de variables del sistema
+ajustes:
+  intentos_maximos: 3
+  tiempo_espera_segundos: 60
+  entorno: "producción" # Opciones: desarrollo, pruebas, producción
+
+# Lista de módulos o componentes requeridos (Sintaxis de lista corta)
+componentes: [autenticacion, base_datos, notificaciones]
+
+# Datos estructurados en formato de lista (Sintaxis de lista larga)
+proveedores_servicios:
+  - nombre: "Servicio de Correo"
+    api_key: "PROD_KEY_12345"
+    puerto: 587
+  - nombre: "Servicio de SMS"
+    api_key: "PROD_KEY_67890"
+    puerto: 443
+
+# Bloque de texto multilinea (mantiene los saltos de línea con el símbolo "|")
+descripcion_error: |
+  Lo sentimos, la funcionalidad no está disponible en este momento.
+  Por favor, inténtelo de nuevo más tarde o contacte al soporte técnico.
